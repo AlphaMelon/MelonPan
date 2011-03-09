@@ -1,3 +1,6 @@
 source "http://rubygems.org"
-gem "wxruby"
 gem "datamapper"
+source "http://gems.rubyforge.org"
+gem "wxruby", '2.0.0'
+gem "wx_sugar"
+gem "ocra"

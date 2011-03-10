@@ -16,7 +16,7 @@ Simply generate the XRC file and put it in resources/Xrc/
 and run
  <pre>
 rake gui:generate:view
- <pre>
+ </pre>
 
 which will generate view ruby file to load the xrc.
 Note: all files will be regenerated when you run the rake.

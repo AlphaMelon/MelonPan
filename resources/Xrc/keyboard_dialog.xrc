@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="KeyboardDialog" subclass="KeyboardDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title></title>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxPanel" name="KeyboardPanel">
+					<style>wxTAB_TRAVERSAL</style>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxEXPAND|wxFIXED_MINSIZE</flag>
+							<border>1</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_1">
+										<size>50,50</size>
+										<label>1</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_2">
+										<size>50,50</size>
+										<label>2</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_3">
+										<size>50,50</size>
+										<label>3</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_4">
+										<size>50,50</size>
+										<label>4</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_5">
+										<size>50,50</size>
+										<label>5</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_6">
+										<size>50,50</size>
+										<label>6</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_7">
+										<size>50,50</size>
+										<label>7</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_8">
+										<size>50,50</size>
+										<label>8</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_9">
+										<size>50,50</size>
+										<label>9</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>0</border>
+									<object class="wxButton" name="no_0">
+										<size>50,50</size>
+										<label>0</label>
+										<default>0</default>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxEXPAND|wxFIXED_MINSIZE</flag>
+							<border>1</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="spacer">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>15,0</size>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_q">
+										<size>50,50</size>
+										<label>Q</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_w">
+										<size>50,50</size>
+										<label>W</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_e">
+										<size>50,50</size>
+										<label>E</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_r">
+										<size>50,50</size>
+										<label>R</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_t">
+										<size>50,50</size>
+										<label>T</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_y">
+										<size>50,50</size>
+										<label>Y</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_u">
+										<size>50,50</size>
+										<label>U</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_i">
+										<size>50,50</size>
+										<label>I</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_o">
+										<size>50,50</size>
+										<label>O</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_TOP</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_p">
+										<size>50,50</size>
+										<label>P</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="spacer">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>15,0</size>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxEXPAND|wxFIXED_MINSIZE</flag>
+							<border>1</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="spacer">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>25,0</size>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_a">
+										<size>50,50</size>
+										<label>A</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_s">
+										<size>50,50</size>
+										<label>S</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_d">
+										<size>50,50</size>
+										<label>D</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_f">
+										<size>50,50</size>
+										<label>F</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_g">
+										<size>50,50</size>
+										<label>G</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_h">
+										<size>50,50</size>
+										<label>H</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_j">
+										<size>50,50</size>
+										<label>J</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_k">
+										<size>50,50</size>
+										<label>K</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALIGN_CENTER|wxALL</flag>
+									<border>1</border>
+									<object class="wxButton" name="button_l">
+										<size>50,50</size>
+										<label>L</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="spacer">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>25,0</size>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxEXPAND|wxFIXED_MINSIZE</flag>
+							<border>1</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_backspace">
+										<size>100,50</size>
+										<label>Backspace</label>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+									<border>5</border>
+									<object class="wxBoxSizer">
+										<orient>wxVERTICAL</orient>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+											<border>5</border>
+											<object class="wxBoxSizer">
+												<orient>wxHORIZONTAL</orient>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_z">
+														<size>50,50</size>
+														<label>Z</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_x">
+														<size>50,50</size>
+														<label>X</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_c">
+														<size>50,50</size>
+														<label>C</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_v">
+														<size>50,50</size>
+														<label>V</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_b">
+														<size>50,50</size>
+														<label>B</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_n">
+														<size>50,50</size>
+														<label>N</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxALL</flag>
+													<border>1</border>
+													<object class="wxButton" name="button_m">
+														<size>50,50</size>
+														<label>M</label>
+														<default>0</default>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxEXPAND</flag>
+											<border>1</border>
+											<object class="wxButton" name="button_space">
+												<size>-1,35</size>
+												<label>Space</label>
+												<default>0</default>
+											</object>
+										</object>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL|wxBOTTOM</flag>
+									<border>5</border>
+									<object class="wxButton" name="button_ok">
+										<size>100,50</size>
+										<label>Ok</label>
+										<default>0</default>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+

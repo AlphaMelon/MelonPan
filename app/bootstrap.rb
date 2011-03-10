@@ -14,12 +14,14 @@ def require_directory(directory)
 end
 
 # Require all Models and Controllers
+
+require_directory File.dirname(__FILE__) + '/views/'
 require_directory File.dirname(__FILE__) + '/models/'
 require_directory File.dirname(__FILE__) + '/controllers/'
 
 class Bootstrap < App
   def on_init
-     ApplicationController.new.show()
+     MainMenuController.new
   end
 end
 

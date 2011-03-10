@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="MenuFrame" subclass="MainMenuFrame">
+		<style>wxDEFAULT_FRAME_STYLE|wxCLIP_CHILDREN|wxTAB_TRAVERSAL</style>
+		<size>1056,721</size>
+		<title>- Melon Pan -</title>
+		<centered>1</centered>
+		<object class="wxPanel" name="Choice_Panel">
+			<style>wxTAB_TRAVERSAL</style>
+			<object class="wxBoxSizer">
+				<orient>wxHORIZONTAL</orient>
+				<object class="spacer">
+					<option>15</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<size>0,0</size>
+				</object>
+				<object class="sizeritem">
+					<option>75</option>
+					<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="spacer">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<size>0,0</size>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER|wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxButton" name="New_Sale_Button" subclass="NewSaleButton">
+								<size>-1,80</size>
+								<label>New Sale</label>
+								<default>0</default>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER|wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxButton" name="Search_Sale_Button" subclass="SearchSaleButton">
+								<size>-1,80</size>
+								<label>Search Sale</label>
+								<default>0</default>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER|wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxButton" name="Admin_Panel_Button" subclass="AdminPanelButton">
+								<size>-1,80</size>
+								<label>Admin Panel</label>
+								<default>0</default>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER|wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxButton" name="End_Session_Button" subclass="EndSessionButton">
+								<size>-1,80</size>
+								<label>Close Cashier</label>
+								<default>0</default>
+							</object>
+						</object>
+						<object class="spacer">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<size>0,0</size>
+						</object>
+					</object>
+				</object>
+				<object class="spacer">
+					<option>15</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<size>0,0</size>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+
